@@ -1,10 +1,8 @@
-// Input
-var username = prompt("Enter Your Name: ")
+var buttonTranslate = document.querySelector("#button-translate")
 
-// Processing
+function callback(){
+    console.log("CLicked")
+}
 
-var welcomeOutput = "Hi!! Welcome to Our Game " + username;
+var buttonclick = buttonTranslate.addEventListener("click", callback)
 
-// Output
-
-alert(welcomeOutput)
