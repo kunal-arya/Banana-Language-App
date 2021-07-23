@@ -22,10 +22,9 @@ h1{
     margin-right: auto;
     margin-top:1rem;
     margin-bottom: 1rem;
-    max-width: 350px;
-    border: 1px solid black;
-    border-radius: 3rem ;
-    
+    max-width: 70%;
+    border-radius: 3rem;
+    padding: 1rem;
 }
 
 
@@ -70,4 +69,9 @@ background-color: var(--box-color);
 
 #text-translate {
     text-align: center;
+}
+
+#p-banana {
+    text-align: center;
+    padding: 1rem;
 }
